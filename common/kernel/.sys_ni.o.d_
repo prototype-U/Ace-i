@@ -1,0 +1,8 @@
+sys_ni.o: kernel/sys_ni.c include/generated/autoconf.h \
+ include/linux/linkage.h include/linux/compiler.h \
+ include/linux/compiler-gcc.h include/linux/compiler-gcc4.h \
+ /home/hell-lock/Desktop/acei/kernel/common/arch/arm/include/asm/linkage.h \
+ include/linux/errno.h \
+ /home/hell-lock/Desktop/acei/kernel/common/arch/arm/include/asm/errno.h \
+ include/asm-generic/errno.h include/asm-generic/errno-base.h \
+ /home/hell-lock/Desktop/acei/kernel/common/arch/arm/include/asm/unistd.h
